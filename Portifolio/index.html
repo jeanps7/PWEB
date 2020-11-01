@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="shortcut icon" href="img/jp.ico" >
+    <title>Jean Philip Silva</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Portifólio</p>
+            <NAV class="menu">
+                <a href="#sobre-mim">Sobre mim</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#Conhecimentos">Conhecimentos</a>
+            </NAV>
+        </div>
+    </header>
+    <main>
+        <div class="setor fundo-branco">
+            <div class="container">
+                <h5 class="cumprimeto">Olá, eu sou o</h5>
+                <p class="nome">Jean Philip Silva</p>
+                <p class="cumprimeto">Desenvolvedor Back-End</p>
+                <div class="botoes">
+                    <button role="button" onclick="git()" class="botao"><i class="fab fa-github"></i>Meu GitHub</button>
+                </div>
+            </div>
+            <div>
+                <img class="imagem-inicio" src="img/undraw_Freelancer_re_irh4.png" alt="">
+            </div>
+
+        </div>
+        <div id="sobre-mim" class="setor fundo-preto">
+            <img class="userImage" id="Imagem" src="img/jean.jpeg" alt="">
+            <div class="container" style="margin-right:50px;">
+                <p class="titulo-branco">✍<span class="underline">Sobre Mim</span></p>
+                <p class="descricao-branca">Meu nome é Jean Philip, tenho 20 anos, moro em Sorocaba-SP. Atualmente estou estudando na FATEC de Sorocaba. Também 
+                    fiz um curso Técnico na ETEC Fernando Prestes em Sorocaba.
+                    Iniciei como Desenvolvedor Back End em 2020. Desde então venho dedicando aos
+                    estudos. Tenho conhecimento em Asp .Net MVC, Java, e conhecimento em Html, Javascript e CSS, possuo vários cursos e projetos. Gosto
+                muito da área da Técnologia, me encontrei na área da programação especifícamente.</p>
+                <div style="margin-top: 15px;" class="botoes">
+                    <button onclick="linkedin()" role="button" class="botao hoverButton"><i class="fab fa-linkedin-in"></i>Meu
+                        Linkedin
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="projetos" class="setor fundo-branco">
+            <div class="container" style="margin-right:50px;">
+                <p class="titulo-preto" style="text-align: center;">☕<span class="underline">Projetos</span></p>
+                <div class="projetos">
+                    <div class="box">
+                        <h4>Netflix</h4>
+                        <p class="descricao-branca projeto">Projeto clone da Netflix feito para Treino no Bootcamp HTML
+                            disponibilizado pela Digital Innovation One, utilizando Jquery</p>
+                        <div class="botoes">
+                            <button onclick="gitBootcamp()" role="button" class="botao fundo-vermelho">
+                                <i class="fab fa-github"></i>
+                                Confira!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Instagram</h4>
+                        <p class="descricao-branca projeto">Projeto clone de Instagram feito para Treino no Bootcamp
+                            HTML disponibilizado pela Digital Innovation One, utilizando Jquery</p>
+                        <div class="botoes">
+                            <button onclick="gitBootcamp()" role="button" class="botao fundo-vermelho">
+                            <i class="fab fa-github"></i>
+                                Confira!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Pweb</h4>
+                        <p class="descricao-branca projeto">Portifólio para as aulas de PWEB da Faculdade de Tecnologia
+                            de Sorocaba, ministrada pela professora Denilce Veloso</p>
+                        <div class="botoes">
+                            <button onclick="gitPweb()" role="button" class="botao fundo-vermelho"><i
+                                    class="fab fa-github"></i>Confira!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Conhecimentos" class="setor fundo-preto">
+            <div class="container" style="margin-right:50px;">
+                <p class="titulo-branco" style="text-align: center;">📖 <span class="underline">Conhecimentos</span></p>
+                <div class="projetos">
+                    <div onclick="java()" id="cresce" class="box fundo-branco">
+                        <img src="img/java.png" alt="" class="icone">
+                        <h4 style="color: black;" >JAVA</h4>
+                        <p class="descricao-preto projeto">2 Anos de experiência</p>
+                    </div>
+                    <div onclick="c()" id="cresce" class="box fundo-branco">
+                        <img src="img/c.png" alt="" class="icone">
+                        <h4 style="color: black;">C#</h4>
+                        <p class="descricao-preto projeto">2 Anos de experiência</p>
+                    </div>
+                    <div onclick="html()" id="cresce" class="box fundo-branco">
+                        <img src="img/html.png" alt="" class="icone">
+                        <h4 style="color: black;">HTML</h4>
+                        <p class="descricao-preto projeto">2 Anos de experiência</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">
+            Feito por Jean Philip
+        </p>
+        <div class="icon-container">
+            <svg onclick="twitter()" viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+                <path d=" M 630, 425 A 195, 195 0 0 1 331, 600 A 142, 142 0 0 0 428, 570 A  70,  70 0 0 1 370, 523 A  70,  70 0 0 0 401, 521 A  70,  70 0 0 1 344, 455 A  70,  70 0 0 0 372, 460 A  70,  70 0 0 1 354, 370 A 195, 195 0 0 0 495, 442 A  67,  67 0 0 1 611, 380 A 117, 117 0 0 0 654, 363 A  65,  65 0 0 1 623, 401 A 117, 117 0 0 0 662, 390 A  65,  65 0 0 1 630, 425 Z" class="icon"/>
+            </svg>
+            <svg onclick="git()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" class="icon" />
+            </svg>
+            <svg onclick="linkedin()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"class="icon"/>
+            </svg>
+            <svg onclick="instagram()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z" class="icon"/>
+            </svg>
+            </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/10cf12b8a5.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
