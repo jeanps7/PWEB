@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.botao {
+    margin-top: 50px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+h3 {
+    margin-top: 50px;
+}
+.titulo {
+    align-self: center;
+}

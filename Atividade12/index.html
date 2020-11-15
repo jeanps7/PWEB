@@ -1,0 +1,40 @@
+  
+<!-- Jean Philip Silva -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 12</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); validar(this)" name="formFormulario" >
+        <h1 class="titulo">Formulário Principal</h1>
+
+        <div class="textos">
+            <label for="">Nome:</label>
+            <input class="texto" type="text">
+            <label for="">E-mail:</label>
+            <input class="texto" type="text">
+            <label for="">Comentário:</label>
+            <textarea class="texto" cols="30" rows="10"></textarea>
+        </div>
+
+        <h3>Pesquisa</h3>
+        <p>Primeira vez nesta página?</p>
+        <div>
+            <input id="sim" type="radio" name="pesquisa" value="sim">
+            <label for="sim">Sim</label>
+            <input id="nao" type="radio" name="pesquisa" value="nao">
+            <label for="nao">Não</label>
+        </div>
+        
+        <div class="botao">
+            <input type="submit" value="Enviar">
+            <button onclick="Limpar()">Limpar</button>
+        </div>
+        
+    </form>
+</body>
+</html>
