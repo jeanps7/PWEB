@@ -35,24 +35,24 @@ function validaNome(nome) {
 }
 
 function validar() {
-    const nome = document.formFormulario.elements[0].value;
+    var nome = document.formFormulario.elements[0].value;
     if (!validaNome(nome)) {
         alert('Nome inválido: No mínimo 10 caracteres!');
         return;
     }
-    const email = document.formFormulario.elements[1].value;
+    var email = document.formFormulario.elements[1].value;
     if (!validaEmail(email)) {
         alert('Email inválido!');
         return;
     }
-    const comentario = document.formFormulario.elements[2].value;
+    var comentario = document.formFormulario.elements[2].value;
     if (!validaComentario(comentario)) {
         alert('Comentário deve ter no mínimo 20 caracteres!');
         return;
     }
-    const sim = document.formFormulario.elements[3].checked, nao = document.formFormulario.elements[4].checked;
+    var sim = document.formFormulario.elements[3].checked, nao = document.formFormulario.elements[4].checked;
     if (!validaPesquisa(sim, nao)) {
-        alert('A pesquisa é obrigatória!');
+        alert('Pesquisa é obrigatória!');
         return;
     }
     if (nao) {
